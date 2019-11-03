@@ -1,0 +1,38 @@
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.exe
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.pdb
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.GenerateResource.Cache
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.exe
+C:\Users\MSI\Desktop\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.pdb
+C:\Users\MSI\Desktop\PROYECTO\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.exe
+C:\Users\MSI\Desktop\PROYECTO\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.pdb
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.exe
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.pdb
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csprojAssemblyReference.cache
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.GenerateResource.cache
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.CoreCompileInputs.cache
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.exe
+C:\Users\byron\Downloads\-ORGA-Proyecto_2S2019G3-master\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.pdb
+D:\Documents and Settings\Administrador\Escritorio\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.exe
+D:\Documents and Settings\Administrador\Escritorio\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.pdb
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.exe
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.pdb
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csprojAssemblyReference.cache
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.GenerateResource.cache
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.exe
+C:\Users\Gabriel Paz\Desktop\-ORGA-Proyecto_2S2019G3-master\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.pdb
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.exe
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\bin\Debug\Proyecto Orga.pdb
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csprojAssemblyReference.cache
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.GenerateResource.cache
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.csproj.CoreCompileInputs.cache
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.exe
+C:\Users\byron\Downloads\Proyecto Orga\Proyecto Orga\Proyecto Orga\obj\x86\Debug\Proyecto Orga.pdb
