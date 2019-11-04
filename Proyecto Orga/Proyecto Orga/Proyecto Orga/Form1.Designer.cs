@@ -40,9 +40,19 @@
             this.tpdibujo = new System.Windows.Forms.TabPage();
             this.caja = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.setisx = new System.Windows.Forms.Label();
+            this.setisY = new System.Windows.Forms.Label();
+            this.regreso = new System.Windows.Forms.Label();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.guardarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.acercaDeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.abrirManualDeUsuarioYTecnicoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.tabControl1.SuspendLayout();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -138,7 +148,7 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tpdibujo);
-            this.tabControl1.Location = new System.Drawing.Point(140, 23);
+            this.tabControl1.Location = new System.Drawing.Point(161, 23);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -159,7 +169,7 @@
             // 
             // caja
             // 
-            this.caja.Location = new System.Drawing.Point(638, 45);
+            this.caja.Location = new System.Drawing.Point(671, 42);
             this.caja.Margin = new System.Windows.Forms.Padding(2);
             this.caja.Name = "caja";
             this.caja.Size = new System.Drawing.Size(240, 487);
@@ -175,22 +185,108 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Archivo Entrada";
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(12, 442);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(81, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Coordenada X: ";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(12, 481);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(78, 13);
+            this.label3.TabIndex = 5;
+            this.label3.Text = "Coordenada Y:";
+            // 
+            // setisx
+            // 
+            this.setisx.AutoSize = true;
+            this.setisx.Location = new System.Drawing.Point(88, 442);
+            this.setisx.Name = "setisx";
+            this.setisx.Size = new System.Drawing.Size(13, 13);
+            this.setisx.TabIndex = 0;
+            this.setisx.Text = "0";
+            // 
+            // setisY
+            // 
+            this.setisY.AutoSize = true;
+            this.setisY.Location = new System.Drawing.Point(88, 481);
+            this.setisY.Name = "setisY";
+            this.setisY.Size = new System.Drawing.Size(13, 13);
+            this.setisY.TabIndex = 6;
+            this.setisY.Text = "0";
+            // 
+            // regreso
+            // 
+            this.regreso.AutoSize = true;
+            this.regreso.Location = new System.Drawing.Point(12, 507);
+            this.regreso.Name = "regreso";
+            this.regreso.Size = new System.Drawing.Size(0, 13);
+            this.regreso.TabIndex = 0;
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.guardarToolStripMenuItem,
+            this.acercaDeToolStripMenuItem,
+            this.abrirManualDeUsuarioYTecnicoToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(922, 24);
+            this.menuStrip1.TabIndex = 7;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // guardarToolStripMenuItem
+            // 
+            this.guardarToolStripMenuItem.Name = "guardarToolStripMenuItem";
+            this.guardarToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
+            this.guardarToolStripMenuItem.Text = "Guardar Como";
+            this.guardarToolStripMenuItem.Click += new System.EventHandler(this.GuardarToolStripMenuItem_Click);
+            // 
+            // acercaDeToolStripMenuItem
+            // 
+            this.acercaDeToolStripMenuItem.Name = "acercaDeToolStripMenuItem";
+            this.acercaDeToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
+            this.acercaDeToolStripMenuItem.Text = "Acerca de";
+            this.acercaDeToolStripMenuItem.Click += new System.EventHandler(this.AcercaDeToolStripMenuItem_Click);
+            // 
+            // abrirManualDeUsuarioYTecnicoToolStripMenuItem
+            // 
+            this.abrirManualDeUsuarioYTecnicoToolStripMenuItem.Name = "abrirManualDeUsuarioYTecnicoToolStripMenuItem";
+            this.abrirManualDeUsuarioYTecnicoToolStripMenuItem.Size = new System.Drawing.Size(200, 20);
+            this.abrirManualDeUsuarioYTecnicoToolStripMenuItem.Text = "Abrir Manual de Usuario y Tecnico";
+            this.abrirManualDeUsuarioYTecnicoToolStripMenuItem.Click += new System.EventHandler(this.AbrirManualDeUsuarioYTecnicoToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(889, 540);
+            this.ClientSize = new System.Drawing.Size(922, 540);
+            this.Controls.Add(this.setisY);
+            this.Controls.Add(this.setisx);
+            this.Controls.Add(this.regreso);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.caja);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -210,6 +306,15 @@
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.RichTextBox caja;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label setisx;
+        private System.Windows.Forms.Label setisY;
+        private System.Windows.Forms.Label regreso;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem guardarToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem acercaDeToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem abrirManualDeUsuarioYTecnicoToolStripMenuItem;
     }
 }
 

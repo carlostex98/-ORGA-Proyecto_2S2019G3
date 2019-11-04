@@ -7,13 +7,14 @@ using System.Linq;
 using System.Threading;
 using System.Text;
 using System.Windows.Forms;
+using System.IO;
 
 namespace WindowsFormsApplication1
 {
     public partial class Form1 : Form
     {
         boton[,] matrizBotones=new boton[8,16];
-        int retardo = 200;
+        int retardo = 1000;
         puertoParalelo puerto = new puertoParalelo();
         public Form1()
         {
@@ -69,7 +70,11 @@ namespace WindowsFormsApplication1
                        // MessageBox.Show("x: " + datoX + " y: " + datoY);
                         puerto.activa_INIT();
                         Thread.Sleep(retardo);
-                        Console.WriteLine("Hay un 1 en: " +datoX+","+datoY); 
+                        Console.WriteLine("Hay un 1 en: " +datoX+","+datoY);
+                        setisx.Text = datoX.ToString();
+                        setisx.Update();
+                        setisY.Text = datoY.ToString();
+                        setisY.Update();
                     }
                     else
                     {
@@ -78,26 +83,38 @@ namespace WindowsFormsApplication1
                         puerto.desactiva_INIT();
                         Thread.Sleep(retardo);
                         Console.WriteLine("Hay un 0 en: "+datoX+","+datoY);
+                        setisx.Text = datoX.ToString();
+                        setisx.Update();
+                        setisY.Text = datoY.ToString();
+                        setisY.Update();
                     }
                     if (j==7)
                     {
-                        mandarInicio(j);  
+                        mandarInicio(j);
                     }
                 }
             }
+            regreso.Text = "Fin de Impresion";
+            regreso.Update();
         }
         private void mandarInicio(int n)
         {
             do
             {
+
                 datoX = n;
                 puerto.activa_INIT();
                 Thread.Sleep(retardo);
                 n -= 1;
                 
                 Console.WriteLine("Regresando a la posicion 0 en:"+datoX+","+datoY);
+                regreso.Text = "Regresando a 0 en X [" + datoX + "," + datoY+"]";
+                regreso.Update();
+
+
             } while (n != -1);
-            Console.WriteLine();
+            regreso.Text = "Regresando a 0 en X [" + datoX + "," + datoY + "]";
+            regreso.Update();
         }
         private void button7_Click(object sender, EventArgs e)
         {
@@ -279,6 +296,28 @@ namespace WindowsFormsApplication1
         {
             limpiar();
             caja.Text = "";
+        }
+
+        private void GuardarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SaveFileDialog guardar = new SaveFileDialog();
+            if (guardar.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                StreamWriter nuevo = File.CreateText(guardar.FileName);                
+                nuevo.Write(caja.Text);
+                nuevo.Close();
+            }
+        }
+
+        private void AcercaDeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Grupo 2\nEquipo AlfaLoboDinamitaEstrategicoSuperBuenaOnda\nByron Antonio Orellana Alburez    201700733\nJackeline Alexandra Benitez Benitez    201709166\nLudwing Gabriel Paz Hernandez    201700521\nCarlos Alejandro Tenes Mejia     201700317\nAdrian Byron Alvarado Alfaro     201700308");
+        }
+
+        private void AbrirManualDeUsuarioYTecnicoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/ManualDeUsuario.pdf");
+            System.Diagnostics.Process.Start("C:/ManualTecnico.pdf");
         }
     }
 }
